@@ -417,6 +417,26 @@
             margin-bottom: 10px;
             padding-left: 10px;
         }
+
+        /* Estilos para las imágenes */
+        .diagram-image {
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+        
+        .image-caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
@@ -483,6 +503,18 @@
                 
                 <div class="diagram-section">
                     <h3 class="diagram-title">Diagrama Relacional - Sistema ABC</h3>
+                    
+                    <!-- Espacio para la primera imagen (Sistema ABC) -->
+                    <div class="image-container">
+                        <img src="img/1.png" alt="Diagrama Relacional del Sistema ABC" class="diagram-image">
+                        <div class="image-caption">Diagrama relacional del Sistema ABC</div>
+                    </div>
+                    
+                    <!-- Espacio para la segunda imagen (Sistema ABC) -->
+                    <div class="image-container">
+                        <img src="img/2.png" alt="Segunda imagen del Sistema ABC" class="diagram-image">
+                        <div class="image-caption">Detalle adicional del Sistema ABC</div>
+                    </div>
                     
                     <div class="diagram">
                         <div class="entity">
